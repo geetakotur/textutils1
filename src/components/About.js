@@ -6,7 +6,7 @@ export default function About(props) {
     <div className="container" style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>
       <h1 style={{ fontSize: '30px' }}>About Us</h1>
       <center>
-        <img src="./t2.png" height={300} width={300} alt="..." />
+        <img src="/t2.png" height={300} width={300} alt="..." />
       </center>
       <p style={{ fontSize: '20px' }}>
         <strong>TextUtils is simply a set of utility functions to do operations on String objects.</strong>
